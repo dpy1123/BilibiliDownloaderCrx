@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "BilibiliDownloader",
+  "version": "0.1",
+  "description": "bilibili～",
+ // "icons": { "128": "images/github_512.png" },
+  "background": {
+    "persistent": true,
+    "scripts": ["bg.js"]
+  },
+  "permissions": ["tabs", "*://*/*"],
+  "browser_action": {
+    "default_title": "Bilibili Downloader",
+    "default_icon": {
+        //"19": "images/github.png"
+    }
+  }
+}
+
